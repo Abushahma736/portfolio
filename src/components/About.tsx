@@ -60,9 +60,9 @@ const About = () => {
                 variants={fadeInUp}
                 className="text-lg text-gray-300 leading-relaxed"
               >
-                My expertise spans across <span className="gradient-text-pink font-semibold">web development, AI integration, and IoT solutions</span>. 
+                My expertise spans across <span className="gradient-text-pink font-semibold">web development,Full stack development</span>. 
                 I've successfully completed internships at Campus Technology and Prodigy InfoTech, and won 1st place in a college hackathon 
-                for developing an AI-powered e-commerce platform.
+                for developing FTL Website .
               </motion.p>
             </motion.div>
 

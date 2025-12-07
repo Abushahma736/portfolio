@@ -38,7 +38,7 @@ A modern, futuristic personal portfolio website built with React, Three.js, and 
 
 3. **Start development server**
    ```bash
-   npm run dev
+  ` npm run dev`
    ```
 
 4. **Open your browser**

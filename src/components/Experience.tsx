@@ -16,21 +16,7 @@ interface ExperienceItem {
 
 const Experience = () => {
   const experiences: ExperienceItem[] = [
-    {
-      id: '1',
-      title: 'Website Development Intern',
-      company: 'Campus Technology',
-      period: 'May 2025 - Jul 2025',
-      description: 'Developed a complete website using HTML, CSS, and JavaScript with responsive layouts and interactive features.',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-      achievements: [
-        'Developed a complete website using HTML, CSS, and JavaScript',
-        'Designed responsive layouts to ensure cross-device compatibility',
-        'Implemented interactive features and improved user experience',
-        'Tested and debugged code to maintain project quality standards'
-      ],
-      type: 'work'
-    },
+
     {
       id: '2',
       title: 'Web Development Intern',
@@ -43,7 +29,8 @@ const Experience = () => {
         'Implemented responsive designs using HTML, CSS, and JavaScript',
         'Worked under expert guidance for professional development'
       ],
-      type: 'work'
+      type: 'certification',
+      certificateImage: '/images/certificate-3.jpg'
     },
     {
       id: '3',
@@ -76,25 +63,26 @@ const Experience = () => {
     // Certifications Section
     {
       id: '5',
-      title: 'Python Programming Certificate',
-      company: 'Coursera - University of Michigan',
-      period: 'Dec 2024',
-      description: 'Comprehensive Python programming course covering data structures, algorithms, and web development frameworks.',
+      title: 'Hackathon Winner',
+      company: '',
+      period: 'Aug 2025',
+      description: 'Award-winning developer recognized for building an innovative project during a university-level hackathon. Competed against multiple campus teams and secured first place as part of Team HackStorm.',
       technologies: ['Python', 'Django', 'Flask', 'Data Structures', 'Algorithms'],
       achievements: [
-        'Completed Python Programming specialization',
-        'Built web applications using Django and Flask',
-        'Implemented data structures and algorithms in Python',
-        'Developed RESTful APIs and database integration'
+        '🏆 Winner of University-Level Hackathon (Team HackStorm)',
+        'Built a complete functional solution within limited time',
+        'Integrated RESTful APIs and database modules efficiently',
+        'Collaborated with team members for real-time problem solving'
+
       ],
       type: 'certification',
       certificateImage: '/images/certificate-1.jpg'
     },
     {
       id: '6',
-      title: 'Web Development Fundamentals',
-      company: 'freeCodeCamp',
-      period: 'Nov 2024',
+      title: 'Web Development',
+      company: 'Campus Technology',
+      period: 'July 2025',
       description: 'Comprehensive certification covering HTML, CSS, JavaScript, and responsive web design principles.',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design', 'Accessibility'],
       achievements: [
@@ -109,7 +97,7 @@ const Experience = () => {
     {
       id: '7',
       title: 'Data Structures and Algorithms',
-      company: 'Coursera - Stanford University',
+      company: '',
       period: 'Oct 2024',
       description: 'Advanced certification covering fundamental computer science concepts, data structures, and algorithmic problem solving.',
       technologies: ['Algorithms', 'Data Structures', 'Problem Solving', 'C++', 'Java'],
@@ -119,8 +107,8 @@ const Experience = () => {
         'Implemented efficient sorting and searching algorithms',
         'Developed strong problem-solving skills'
       ],
-      type: 'certification',
-      certificateImage: '/images/certificate-3.jpg'
+      type: 'education',
+     
     }
   ]
 

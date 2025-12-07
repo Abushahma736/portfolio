@@ -77,18 +77,18 @@ const Projects = () => {
     },
     {
       id: '3',
-      title: 'Restaurant Website Application',
-      description: 'Responsive restaurant website with interactive menus, image galleries, and booking system.',
+      title: 'Food court (A Single Restaurant Website,Domain Project)',
+      description: 'This project is a single-restaurant Food Court website developed using Angular for the frontend, Spring Boot for the backend, and MySQL as the database. The system includes two separate portals: an Admin Portal for managing menu items, orders, and user data, and a User Portal for browsing the menu and placing orders. Both portals are fully authenticated, ensuring secure access and efficient data handling by the admin. The application delivers a smooth, responsive, and user-friendly experience across all devices.',
       image: '/api/placeholder/600/400',
-      technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      technologies: ['HTML', 'CSS', 'JavaScript', 'MySQL','Angular','SpringBoot'],
       liveUrl: '#',
       githubUrl: '#',
       category: 'Web Development',
       featured: false,
-      longDescription: 'Developed a comprehensive restaurant website featuring interactive menus, image galleries, and contact/booking forms with focus on user experience and mobile responsiveness.',
+      longDescription: 'This project is a single-restaurant Food Court website developed using Angular for the frontend, Spring Boot for the backend, and MySQL as the database. The system includes two separate portals: an Admin Portal for managing menu items, orders, and user data, and a User Portal for browsing the menu and placing orders. Both portals are fully authenticated, ensuring secure access and efficient data handling by the admin. The application delivers a smooth, responsive, and user-friendly experience across all devices.',
       features: [
         'Interactive menu with dynamic content',
-        'Image gallery with smooth transitions',
+        'User can directly order food from his table without waiting fir the Waiter',
         'Contact and booking forms',
         'Responsive design for all devices',
         'User-friendly UI/UX design'
